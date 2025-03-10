@@ -1,0 +1,19 @@
+.board {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo {
+  width: 33%;
+  height: 400px;
+}
+.doing {
+  width: 33%;
+  height: 400px;
+}
+.done {
+  width: 33%;
+  height: 400px;
+}
