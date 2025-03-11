@@ -15,7 +15,10 @@ const Todo = () => {
 
   const addItem = () => {
     let obj;
-    if (updateItem) {
+    const trimmedValue = value.trim();
+    if (trimmedValue === "" || value === null) {
+      return alert("Please Enter Something");
+    } else if (updateItem) {
       obj = {
         title: value,
         id: updateItem.id,
